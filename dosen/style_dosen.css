@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+:root{
+    --bg            : #eff0f3;
+    --button        : #ff8e3c;
+    --text          : #0d0d0d;
+    --text2         : #0d0d0d;
+}
+*{
+    box-sizing      : border-box;
+    margin          : 0;
+    padding         : 0;
+}
+html{
+    scroll-behavior : smooth;
+    background-color: var(--bg);
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    min-height: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.btn-add{
+    background: var(--button);
+    padding: 12px;
+    transition: 0.50s;
+    color: var(--text);
+    border-radius: 1rem;
+    margin-top: 10px;
+}
+.btn-add:hover{
+    box-shadow: 0px 1px 8px var(--text);
+}
+
+/* table css */
+.table-view{
+    border-collapse:collapse;
+    text-align: center;
+    width: 100%;
+    color: var(--text);
+}
+.table-view th {
+    background:var(--button);
+    color: var(--text);
+    font-weight:bold;
+    font-size:14px;
+}
+.table-view th,
+.table-view td {
+    vertical-align:top;
+    padding:5px 10px;
+    border:1px solid #696969;
+}
+.table-view tr {
+    background:var(--bg);
+}
+.table-view tr:hover {
+    background:var(--button);
+}
+
+
+/* Dosen Page */
+
+.page-index{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    line-height: 1.5rem;
+    margin-top: 2rem;
+    height: 78vh;
+}
+.page-index h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--text);
+}
+.page-index p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Mahasiswa Page */
+.page-mahasiswa{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    height: 78vh;
+}
+.page-mahasiswa a{
+    color: var(--text);
+}
+.form-tambah{
+    margin: 3rem;
+}
+.form-tambah label {
+    font-weight: 700;
+    margin-right: 1rem;
+}
+.form-input{
+    background: transparent;
+    border-width: thin;
+    border-style: ridge;
+    border-color: var(--text);
+    padding: 0.50rem;
+}
+.btn-input{
+    background:var(--button);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--text);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    height: 30px;
+    margin-left: 9rem;
+    transition: 0.50s;
+    width: 150px;
+}
+.btn-input:hover{
+    box-shadow: 0px 1px 8px var(--text);
+}
